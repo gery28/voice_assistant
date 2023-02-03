@@ -72,7 +72,7 @@ def username():
 
 def takeCommand():
     r = sr.Recognizer()
-    r.energy_threshold = 150
+    r.energy_threshold = 300
     r.adapt_threshold = True
     r.dynamic_energy_threshold = True
 
